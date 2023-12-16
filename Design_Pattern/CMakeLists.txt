@@ -1,0 +1,5 @@
+include_directories(.)
+add_subdirectory(Behavioral_Patterns)
+add_subdirectory(Creational_Patterns)
+add_subdirectory(J2EE)
+add_subdirectory(Structural_Patterns)

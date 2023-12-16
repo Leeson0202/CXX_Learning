@@ -1,0 +1,8 @@
+include_directories(.)
+
+
+add_subdirectory(Factory_Pattern)
+add_subdirectory(Abstract_Factory)
+add_subdirectory(Singleton_Pattern)
+add_subdirectory(Builder_Pattern)
+add_subdirectory(Prototype_Pattern)
