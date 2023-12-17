@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/16.
 //
 
-#ifndef C__LEARNING_MEDIAPLAYER_H
-#define C__LEARNING_MEDIAPLAYER_H
+#ifndef CXXLEARNING_MEDIAPLAYER_H
+#define CXXLEARNING_MEDIAPLAYER_H
 
 #include "iostream"
 
@@ -14,4 +14,4 @@ public:
 };
 
 
-#endif //C__LEARNING_MEDIAPLAYER_H
+#endif //CXXLEARNING_MEDIAPLAYER_H

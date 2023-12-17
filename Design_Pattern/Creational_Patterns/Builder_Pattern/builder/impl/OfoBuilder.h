@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/13.
 //
 
-#ifndef C__LEARNING_OFOBUILDER_H
-#define C__LEARNING_OFOBUILDER_H
+#ifndef CXXLEARNING_OFOBUILDER_H
+#define CXXLEARNING_OFOBUILDER_H
 
 #include "../Builder.h"
 
@@ -18,4 +18,4 @@ public:
 };
 
 
-#endif //C__LEARNING_OFOBUILDER_H
+#endif //CXXLEARNING_OFOBUILDER_H

@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/3.
 //
 
-#ifndef C__LEARNING_COLOR_H
-#define C__LEARNING_COLOR_H
+#ifndef CXXLEARNING_COLOR_H
+#define CXXLEARNING_COLOR_H
 
 
 class Color {
@@ -12,4 +12,4 @@ public:
 };
 
 
-#endif //C__LEARNING_COLOR_H
+#endif //CXXLEARNING_COLOR_H

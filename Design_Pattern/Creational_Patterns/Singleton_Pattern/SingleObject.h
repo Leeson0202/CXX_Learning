@@ -6,8 +6,8 @@
 #include "iostream"
 
 
-#ifndef C__LEARNING_SINGLEOBJECT_H
-#define C__LEARNING_SINGLEOBJECT_H
+#ifndef CXXLEARNING_SINGLEOBJECT_H
+#define CXXLEARNING_SINGLEOBJECT_H
 
 
 class SingleObject {
@@ -29,4 +29,4 @@ protected:
 
 
 
-#endif //C__LEARNING_SINGLEOBJECT_H
+#endif //CXXLEARNING_SINGLEOBJECT_H

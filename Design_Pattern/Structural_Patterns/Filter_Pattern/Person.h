@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/16.
 //
 
-#ifndef C__LEARNING_PERSON_H
-#define C__LEARNING_PERSON_H
+#ifndef CXXLEARNING_PERSON_H
+#define CXXLEARNING_PERSON_H
 
 #include "iostream"
 #include "string"
@@ -31,4 +31,4 @@ private:
     string maritalStatus;
 };
 
-#endif //C__LEARNING_PERSON_H
+#endif //CXXLEARNING_PERSON_H

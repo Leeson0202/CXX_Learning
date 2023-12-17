@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/16.
 //
 
-#ifndef C__LEARNING_BLUEDRAW_H
-#define C__LEARNING_BLUEDRAW_H
+#ifndef CXXLEARNING_BLUEDRAW_H
+#define CXXLEARNING_BLUEDRAW_H
 
 #include "Draw.h"
 #include "iostream"
@@ -21,4 +21,4 @@ public:
 };
 
 
-#endif //C__LEARNING_BLUEDRAW_H
+#endif //CXXLEARNING_BLUEDRAW_H

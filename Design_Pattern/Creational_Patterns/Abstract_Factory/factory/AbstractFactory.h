@@ -6,8 +6,8 @@
 #include "../color/Color.h"
 
 
-#ifndef C__LEARNING_ABSTRACTFACTORY_H
-#define C__LEARNING_ABSTRACTFACTORY_H
+#ifndef CXXLEARNING_ABSTRACTFACTORY_H
+#define CXXLEARNING_ABSTRACTFACTORY_H
 
 
 class AbstractFactory {
@@ -18,4 +18,4 @@ public:
 };
 
 
-#endif //C__LEARNING_ABSTRACTFACTORY_H
+#endif //CXXLEARNING_ABSTRACTFACTORY_H

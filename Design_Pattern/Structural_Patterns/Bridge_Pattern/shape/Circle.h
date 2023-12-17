@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/16.
 //
 
-#ifndef C__LEARNING_CIRCLE_H
-#define C__LEARNING_CIRCLE_H
+#ifndef CXXLEARNING_CIRCLE_H
+#define CXXLEARNING_CIRCLE_H
 
 #include "iostream"
 #include "Shape.h"
@@ -21,4 +21,4 @@ public:
     }
 };
 
-#endif //C__LEARNING_CIRCLE_H
+#endif //CXXLEARNING_CIRCLE_H

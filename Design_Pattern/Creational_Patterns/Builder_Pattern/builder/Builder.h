@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/13.
 //
 
-#ifndef C__LEARNING_BUILDER_H
-#define C__LEARNING_BUILDER_H
+#ifndef CXXLEARNING_BUILDER_H
+#define CXXLEARNING_BUILDER_H
 
 #include "../product/Bike.h"
 
@@ -20,4 +20,4 @@ public:
 };
 
 
-#endif //C__LEARNING_BUILDER_H
+#endif //CXXLEARNING_BUILDER_H

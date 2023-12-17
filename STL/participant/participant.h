@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/9/30.
 //
 
-#ifndef C__LEARNING_PARTICIPANT_H
-#define C__LEARNING_PARTICIPANT_H
+#ifndef CXXLEARNING_PARTICIPANT_H
+#define CXXLEARNING_PARTICIPANT_H
 
 #include <iostream>
 #include <string>
@@ -36,4 +36,4 @@ private:
 };
 
 
-#endif //C__LEARNING_PARTICIPANT_H
+#endif //CXXLEARNING_PARTICIPANT_H

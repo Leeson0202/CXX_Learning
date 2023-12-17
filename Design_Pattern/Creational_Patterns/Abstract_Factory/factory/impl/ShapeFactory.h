@@ -7,8 +7,8 @@
 #include "../../shape/Shape.h"
 #include "../../color/Color.h"
 
-#ifndef C__LEARNING_SHAPEFACTORY_H
-#define C__LEARNING_SHAPEFACTORY_H
+#ifndef CXXLEARNING_SHAPEFACTORY_H
+#define CXXLEARNING_SHAPEFACTORY_H
 
 
 class ShapeFactory : public AbstractFactory {
@@ -20,4 +20,4 @@ public:
 };
 
 
-#endif //C__LEARNING_SHAPEFACTORY_H
+#endif //CXXLEARNING_SHAPEFACTORY_H

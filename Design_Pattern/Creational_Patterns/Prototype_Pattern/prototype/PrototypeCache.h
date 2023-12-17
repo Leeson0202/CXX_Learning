@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/13.
 //
 
-#ifndef C__LEARNING_PROTOTYPECACHE_H
-#define C__LEARNING_PROTOTYPECACHE_H
+#ifndef CXXLEARNING_PROTOTYPECACHE_H
+#define CXXLEARNING_PROTOTYPECACHE_H
 
 #include "map"
 #include "string"
@@ -32,4 +32,4 @@ private:
 };
 
 
-#endif //C__LEARNING_PROTOTYPECACHE_H
+#endif //CXXLEARNING_PROTOTYPECACHE_H

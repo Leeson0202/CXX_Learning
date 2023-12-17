@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/16.
 //
 
-#ifndef C__LEARNING_AUDIOPLAYER_H
-#define C__LEARNING_AUDIOPLAYER_H
+#ifndef CXXLEARNING_AUDIOPLAYER_H
+#define CXXLEARNING_AUDIOPLAYER_H
 
 #include "MediaPlayer.h"
 #include "adapter/AdvancedMediaPlayerAdapter.h"
@@ -19,4 +19,4 @@ private:
 };
 
 
-#endif //C__LEARNING_AUDIOPLAYER_H
+#endif //CXXLEARNING_AUDIOPLAYER_H

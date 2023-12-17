@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/13.
 //
 
-#ifndef C__LEARNING_SQUARE_H
-#define C__LEARNING_SQUARE_H
+#ifndef CXXLEARNING_SQUARE_H
+#define CXXLEARNING_SQUARE_H
 
 #include "../Shape.h"
 #include "iostream"
@@ -27,4 +27,4 @@ public:
 };
 
 
-#endif //C__LEARNING_SQUARE_H
+#endif //CXXLEARNING_SQUARE_H

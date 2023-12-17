@@ -5,8 +5,8 @@
 
 
 
-#ifndef C__LEARNING_SQUARE_H
-#define C__LEARNING_SQUARE_H
+#ifndef CXXLEARNING_SQUARE_H
+#define CXXLEARNING_SQUARE_H
 
 
 class Square: public Shape{
@@ -15,4 +15,4 @@ public:
 };
 
 
-#endif //C__LEARNING_SQUARE_H
+#endif //CXXLEARNING_SQUARE_H

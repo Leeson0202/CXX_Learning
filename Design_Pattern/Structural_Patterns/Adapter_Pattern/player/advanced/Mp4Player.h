@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/16.
 //
 
-#ifndef C__LEARNING_MP4PLAYER_H
-#define C__LEARNING_MP4PLAYER_H
+#ifndef CXXLEARNING_MP4PLAYER_H
+#define CXXLEARNING_MP4PLAYER_H
 #include "AdvancedMediaPlayer.h"
 
 class Mp4Player: public AdvancedMediaPlayer{
@@ -16,4 +16,4 @@ public:
 };
 
 
-#endif //C__LEARNING_MP4PLAYER_H
+#endif //CXXLEARNING_MP4PLAYER_H

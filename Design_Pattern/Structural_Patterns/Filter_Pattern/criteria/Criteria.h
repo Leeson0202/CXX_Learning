@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/16.
 //
 
-#ifndef C__LEARNING_CRITERIA_H
-#define C__LEARNING_CRITERIA_H
+#ifndef CXXLEARNING_CRITERIA_H
+#define CXXLEARNING_CRITERIA_H
 
 #include "list"
 #include "../Person.h"
@@ -13,4 +13,4 @@ public:
     virtual std::list<Person *> meetCriteria(std::list<Person *> persons) = 0;
 };
 
-#endif //C__LEARNING_CRITERIA_H
+#endif //CXXLEARNING_CRITERIA_H

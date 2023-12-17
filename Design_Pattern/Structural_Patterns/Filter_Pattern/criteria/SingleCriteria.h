@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/16.
 //
 
-#ifndef C__LEARNING_SINGLECRITERIA_H
-#define C__LEARNING_SINGLECRITERIA_H
+#ifndef CXXLEARNING_SINGLECRITERIA_H
+#define CXXLEARNING_SINGLECRITERIA_H
 
 #include "iostream"
 #include "list"
@@ -26,4 +26,4 @@ public:
 private:
 };
 
-#endif //C__LEARNING_SINGLECRITERIA_H
+#endif //CXXLEARNING_SINGLECRITERIA_H

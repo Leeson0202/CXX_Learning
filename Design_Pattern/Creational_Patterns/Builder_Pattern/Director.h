@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/13.
 //
 
-#ifndef C__LEARNING_DIRECTOR_H
-#define C__LEARNING_DIRECTOR_H
+#ifndef CXXLEARNING_DIRECTOR_H
+#define CXXLEARNING_DIRECTOR_H
 
 #include "./builder/Builder.h"
 
@@ -23,4 +23,4 @@ private:
     Builder *m_builder;
 };
 
-#endif //C__LEARNING_DIRECTOR_H
+#endif //CXXLEARNING_DIRECTOR_H

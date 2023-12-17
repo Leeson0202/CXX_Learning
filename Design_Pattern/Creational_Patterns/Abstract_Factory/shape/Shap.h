@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/3.
 //
 
-#ifndef C__LEARNING_SHAP_H
-#define C__LEARNING_SHAP_H
+#ifndef CXXLEARNING_SHAP_H
+#define CXXLEARNING_SHAP_H
 
 
 class Shap {
@@ -12,4 +12,4 @@ class Shap {
 };
 
 
-#endif //C__LEARNING_SHAP_H
+#endif //CXXLEARNING_SHAP_H

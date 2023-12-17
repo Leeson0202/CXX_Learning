@@ -5,8 +5,8 @@
 #include "iostream"
 #include "string"
 
-#ifndef C__LEARNING_FACTORYPRODUCER_H
-#define C__LEARNING_FACTORYPRODUCER_H
+#ifndef CXXLEARNING_FACTORYPRODUCER_H
+#define CXXLEARNING_FACTORYPRODUCER_H
 
 
 class FactoryProducer {
@@ -15,4 +15,4 @@ public:
 };
 
 
-#endif //C__LEARNING_FACTORYPRODUCER_H
+#endif //CXXLEARNING_FACTORYPRODUCER_H

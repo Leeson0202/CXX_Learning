@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/16.
 //
 
-#ifndef C__LEARNING_VLCPLAYER_H
-#define C__LEARNING_VLCPLAYER_H
+#ifndef CXXLEARNING_VLCPLAYER_H
+#define CXXLEARNING_VLCPLAYER_H
 
 #include "AdvancedMediaPlayer.h"
 
@@ -16,4 +16,4 @@ class VlcPlayer : public AdvancedMediaPlayer {
 };
 
 
-#endif //C__LEARNING_VLCPLAYER_H
+#endif //CXXLEARNING_VLCPLAYER_H

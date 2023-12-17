@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/13.
 //
 
-#ifndef C__LEARNING_SHAPE_H
-#define C__LEARNING_SHAPE_H
+#ifndef CXXLEARNING_SHAPE_H
+#define CXXLEARNING_SHAPE_H
 
 #include "string"
 
@@ -31,4 +31,4 @@ protected:
 };
 
 
-#endif //C__LEARNING_SHAPE_H
+#endif //CXXLEARNING_SHAPE_H

@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/3.
 //
 
-#ifndef C__LEARNING_SHAPEFACTORY_H
-#define C__LEARNING_SHAPEFACTORY_H
+#ifndef CXXLEARNING_SHAPEFACTORY_H
+#define CXXLEARNING_SHAPEFACTORY_H
 #include "string"
 #include "./shape/Shape.h"
 
@@ -13,4 +13,4 @@ public:
 };
 
 
-#endif //C__LEARNING_SHAPEFACTORY_H
+#endif //CXXLEARNING_SHAPEFACTORY_H

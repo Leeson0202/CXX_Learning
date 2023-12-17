@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/16.
 //
 
-#ifndef C__LEARNING_SHAPE_H
-#define C__LEARNING_SHAPE_H
+#ifndef CXXLEARNING_SHAPE_H
+#define CXXLEARNING_SHAPE_H
 
 #include "../serviceApi/drawApi/Draw.h"
 
@@ -23,4 +23,4 @@ protected:
 };
 
 
-#endif //C__LEARNING_SHAPE_H
+#endif //CXXLEARNING_SHAPE_H

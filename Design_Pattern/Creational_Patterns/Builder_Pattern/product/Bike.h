@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/13.
 //
 
-#ifndef C__LEARNING_BIKE_H
-#define C__LEARNING_BIKE_H
+#ifndef CXXLEARNING_BIKE_H
+#define CXXLEARNING_BIKE_H
 
 #include "string"
 
@@ -27,4 +27,4 @@ private:
 };
 
 
-#endif //C__LEARNING_BIKE_H
+#endif //CXXLEARNING_BIKE_H

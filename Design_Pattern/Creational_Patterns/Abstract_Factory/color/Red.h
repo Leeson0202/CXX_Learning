@@ -4,8 +4,8 @@
 #include "iostream"
 #include "Color.h"
 
-#ifndef C__LEARNING_RED_H
-#define C__LEARNING_RED_H
+#ifndef CXXLEARNING_RED_H
+#define CXXLEARNING_RED_H
 
 
 class Red : public Color {
@@ -14,4 +14,4 @@ public:
 };
 
 
-#endif //C__LEARNING_RED_H
+#endif //CXXLEARNING_RED_H

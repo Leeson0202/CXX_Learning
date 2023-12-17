@@ -23,6 +23,6 @@ int main() {
     for (auto item: malesAndSingle) {
         std::cout << (item);
     }
-
+    return 0;
 
 }

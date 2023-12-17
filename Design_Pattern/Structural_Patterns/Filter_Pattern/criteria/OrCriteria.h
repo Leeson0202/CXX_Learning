@@ -2,8 +2,8 @@
 // Created by ￼ Leeson on 2023/12/16.
 //
 
-#ifndef C__LEARNING_ORCRITERIA_H
-#define C__LEARNING_ORCRITERIA_H
+#ifndef CXXLEARNING_ORCRITERIA_H
+#define CXXLEARNING_ORCRITERIA_H
 
 #include "iostream"
 #include "list"
@@ -32,4 +32,4 @@ private:
     Criteria *other;
 };
 
-#endif //C__LEARNING_ORCRITERIA_H
+#endif //CXXLEARNING_ORCRITERIA_H
