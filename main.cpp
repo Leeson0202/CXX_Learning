@@ -95,7 +95,7 @@ public:
 
     vector<string> *Step3(vector<tuple<string, int, int>> &processes, vector<string> rule) {
         auto res = new vector<string>();
-        map keys{pair<string, int>{"cpu", 1}, {"mem", 2}};
+        map<string, int> keys{pair<string, int>{"cpu", 1}, {"mem", 2}};
         int size = rule.size();
 
         sort(processes.begin(), processes.end(),

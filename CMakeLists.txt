@@ -9,5 +9,7 @@ add_subdirectory(STL)
 add_subdirectory(Design_Pattern)
 
 
-add_executable(participant STL/participant/participant.cpp)
+add_executable(participant STL/participant/participant.cpp
+        template/templateTest.cpp
+        template/templateTest.h)
 
