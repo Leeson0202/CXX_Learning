@@ -14,7 +14,7 @@ class EndState : public State {
 public:
     void doAction(void *context) override {
         cout << "EndState: doAction" << endl;
-        ((Context *) context)->setState(this);
+        ((Context *)context)->setState(this);
     }
 
     string toString() override {

@@ -19,11 +19,8 @@ public:
                 res.push_back(item);
             }
         }
-
         return res;
     }
-
-private:
 };
 
 #endif //CXXLEARNING_MALECRITERIA_H

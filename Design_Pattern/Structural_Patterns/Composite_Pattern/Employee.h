@@ -20,6 +20,7 @@ public:
     void remove(Employee *employee);
 
     std::list<Employee *> getSubordinates();
+    void ShowAllSubordinates();
 
 private:
     std::string name;

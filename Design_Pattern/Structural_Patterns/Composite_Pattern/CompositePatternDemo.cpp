@@ -23,13 +23,6 @@ int main() {
 
     // 打印该组织的所有员工
     std::cout << &CEO;
-    auto ls = CEO.getSubordinates();
-    for (const auto &item: ls) {
-        std::cout << item;
-        auto es = item->getSubordinates();
-        for (const auto &ee: es) {
-            std::cout << ee;
-        }
-    }
+    CEO.ShowAllSubordinates();
     return 0;
 }

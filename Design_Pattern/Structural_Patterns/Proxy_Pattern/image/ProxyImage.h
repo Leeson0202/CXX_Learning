@@ -10,7 +10,9 @@
 
 class ProxyImage : public Image {
 public:
-    ProxyImage(std::string filename) : fileName(filename) {}
+    ProxyImage(std::string filename) : fileName(filename) {
+        std::cout << "申请系统权限成功!" << std::endl;
+    }
 
     void display() override {
         if (realImage == nullptr) {

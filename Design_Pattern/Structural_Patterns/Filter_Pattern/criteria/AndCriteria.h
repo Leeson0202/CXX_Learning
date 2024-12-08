@@ -22,7 +22,7 @@ public:
         list<Person *> res1 = criteria->meetCriteria(persons);
         list<Person *> res2 = other->meetCriteria(persons);
         res.resize(min(res1.size(), res2.size()));  // 不然空间会非常大，出问题
-        // 求并集 or
+        // 求并集 and
         set_intersection(res1.begin(), res1.end(), res2.begin(), res2.end(), res.begin());
         return res;
     }

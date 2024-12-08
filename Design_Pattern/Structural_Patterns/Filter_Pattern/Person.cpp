@@ -12,4 +12,5 @@ std::ostream &operator<<(std::ostream &out, Person *person) {
               << "    gender: " << person->gender << endl
               << "    status: " << person->maritalStatus << endl
               << "}" << endl;
+    return out;
 }

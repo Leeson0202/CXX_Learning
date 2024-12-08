@@ -22,6 +22,5 @@ int main() {
     keyboard->accept(visitor);
     mouse->accept(visitor);
 
-
     return 0;
 }

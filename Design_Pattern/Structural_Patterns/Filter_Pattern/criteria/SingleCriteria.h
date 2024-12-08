@@ -14,16 +14,13 @@ class SingleCriteria : public Criteria {
 public:
     std::list<Person *> meetCriteria(std::list<Person *> persons) override {
         list<Person *> res;
-        for (const auto &item: persons){
+        for (const auto &item: persons) {
             if(item->getMaritalStatus() =="Single"){
                 res.push_back(item);
             }
         }
-
         return res;
     }
-
-private:
 };
 
 #endif //CXXLEARNING_SINGLECRITERIA_H

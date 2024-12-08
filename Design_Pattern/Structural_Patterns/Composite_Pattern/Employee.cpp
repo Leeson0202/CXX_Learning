@@ -26,3 +26,11 @@ std::ostream &operator<<(std::ostream &out, const Employee *employee) {
         << " }" << std::endl;
     return out;
 }
+
+void Employee::ShowAllSubordinates()
+{
+    for (const auto &item: subordinates) {
+        std::cout << this;
+        item->ShowAllSubordinates();
+    }
+}

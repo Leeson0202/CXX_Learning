@@ -2,6 +2,7 @@
 // Created by ￼ Leeson on 2023/12/16.
 //
 #include "iostream"
+#include "list"
 #include "criteria/Criteria.h"
 #include "criteria/AndCriteria.h"
 #include "criteria/OrCriteria.h"
@@ -15,11 +16,13 @@ int main() {
     persons.push_back(new Person{"小红", "FeMale", "Marital"});
     persons.push_back(new Person{"小陈", "Male", "Single"});
     persons.push_back(new Person{"小李", "Male", "Marital"});
+    persons.push_back(new Person{"小宗", "Male", "Single"});
 
     Criteria *criteria1 = new MaleCriteria();
     Criteria *criteria2 = new SingleCriteria();
     Criteria *criteria = new AndCriteria(criteria1, criteria2);
     list<Person *> malesAndSingle = criteria->meetCriteria(persons);
+    std::cout << "malesAndSingle count: " << malesAndSingle.size() << std::endl;
     for (auto item: malesAndSingle) {
         std::cout << (item);
     }

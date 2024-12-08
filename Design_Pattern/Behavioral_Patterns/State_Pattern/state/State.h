@@ -5,8 +5,6 @@
 #ifndef CXXLEARNING_STATE_H
 #define CXXLEARNING_STATE_H
 
-#include "../Context.h"
-
 class State {
 public:
     virtual void doAction(void *context) = 0;

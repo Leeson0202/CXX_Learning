@@ -9,30 +9,30 @@
 
 using namespace std;
 
-enum class Type {
-    GTPU,
-    UDP
-};
 
-template<Type T>
 class Handle {
 public:
-    static Handle<T> Inst() {
-        cout << "GTPU" << endl;
-        Handle<T> handle;
-        return handle;
-    }
+    Handle() {i = 1;};
+    ~Handle() = default;
+
+    int i;
 };
 
 
 // 使用示例
 int main() {
-    Handle<Type::GTPU> h = Handle<Type::GTPU>::Inst();
+    Handle *handle = new Handle();
+
+    cout << "i: " << handle->i<< endl;
+
+    cout << "p: " << handle<< endl;
+
+    delete handle;
+
+    cout << "p: " << handle<< endl;
+    cout << "i: " << handle->i<< endl;
+
     return 0;
 }
 
 
-int main() {
-
-    return 0;
-}
