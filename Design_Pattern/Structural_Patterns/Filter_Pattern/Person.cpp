@@ -4,13 +4,10 @@
 
 #include "./Person.h"
 
-string Person::get() {}
+string Person::get() { return name; }
 
 std::ostream &operator<<(std::ostream &out, Person *person) {
-    std::cout << "Person:{" << endl
-              << "    name: " << person->name << endl
-              << "    gender: " << person->gender << endl
-              << "    status: " << person->maritalStatus << endl
-              << "}" << endl;
+    out << "Person:{ name: " << person->name      << ", gender: " << person->gender
+        << ", status: " << person->maritalStatus << " }" << std::endl;
     return out;
 }
